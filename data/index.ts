@@ -79,7 +79,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Spaco Awards",
+    title: "Tirunelveli Startups Meet Edition 1!",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/spaco.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -87,7 +87,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Spaco Workspace",
+    title: "Tirunelveli Startup Group",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/Spaco-Workspace.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
