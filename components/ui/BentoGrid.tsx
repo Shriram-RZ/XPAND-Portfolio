@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import Image from "next/image";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
