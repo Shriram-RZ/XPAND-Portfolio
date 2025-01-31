@@ -2,19 +2,21 @@ import { CardSpotlight } from "@/components/ui/card-spotlight";
 
 export function CardSpotlightDemo() {
   return (
-    <CardSpotlight className="h-96 w-96">
-      <p className="text-xl font-bold relative z-20 mt-2 text-white">
-        Certifications
-      </p>
-      <div className="text-neutral-200 mt-4 relative z-20">
-        <ul className="list-none mt-2">
-          <Step title="Professional Video Editing Course NPTEL" />
-          <Step title="Soft Skills Coursera" />
-          <Step title="Data Science Ethical Hacking Course - Udemy" />
-          <Step title="Entrepreneurship Foundations" />
-        </ul>
-      </div>
-    </CardSpotlight>
+    <div className="flex justify-center items-center h-screen">
+      <CardSpotlight className="h-96 w-96">
+        <p className="text-xl font-bold relative z-20 mt-2 text-white">
+          Certifications
+        </p>
+        <div className="text-neutral-200 mt-4 relative z-20">
+          <ul className="list-none mt-2">
+            <Step title="Professional Video Editing Course NPTEL" />
+            <Step title="Soft Skills Coursera" />
+            <Step title="Data Science Ethical Hacking Course - Udemy" />
+            <Step title="Entrepreneurship Foundations" />
+          </ul>
+        </div>
+      </CardSpotlight>
+    </div>
   );
 }
 
