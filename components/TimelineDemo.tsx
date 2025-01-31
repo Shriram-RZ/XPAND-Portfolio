@@ -8,7 +8,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <h2 className="text-xl font-bold mb-2">
-            Video Editor <span className="text-indigo-600">Hackbox</span>
+            Video Editor <span style={{ color: "#CBACF9" }}>Hackbox</span>
           </h2>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Collaborated with the team to create visually appealing and
@@ -23,7 +23,7 @@ export function TimelineDemo() {
         <div>
           <h2 className="text-xl font-bold mb-2">
             Co-Founder FattyCraft{" "}
-            <span className="text-indigo-600">(E-commerce Platform)</span>
+            <span style={{ color: "#CBACF9" }}>(E-commerce Platform)</span>
           </h2>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Implemented marketing strategies that boosted brand visibility and
@@ -38,7 +38,7 @@ export function TimelineDemo() {
         <div>
           <h2 className="text-xl font-bold mb-2">
             Founder & CEO Xpand{" "}
-            <span className="text-indigo-600">
+            <span style={{ color: "#CBACF9" }}>
               (Social Media Branding Agency)
             </span>
           </h2>
@@ -55,7 +55,7 @@ export function TimelineDemo() {
         <div>
           <h2 className="text-xl font-bold mb-2">
             Industrial Member{" "}
-            <span className="text-indigo-600">Founders Space</span>
+            <span style={{ color: "#CBACF9" }}>Founders Space</span>
           </h2>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Leveraged the Founders Space ecosystem to build connections, explore

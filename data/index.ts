@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Events", link: "#projects" },
-  { name: "Experience", link: "#testimonials" },
+  { name: "Experience", link: "#TimelineDemo" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -101,6 +101,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
   },
+  {
+    id: 5,
+    title: "Coimbatore Startups Meet Edition 2!",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/bloomit.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
 ];
 
 export const companies = [
@@ -157,6 +165,13 @@ export const workExperience = [
     desc: "Pondicherry Startups Conference 2024.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Chief Guest",
+    desc: "Sri Krishna Arts and Science College, Coimbatore.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/chief-guest.webp",
   },
 ];
 
