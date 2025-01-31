@@ -11,8 +11,8 @@ export function TimelineDemo() {
             Video Editor <span>Hackbox</span>
           </h2>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            BCollaborated with the team to create visually appealing and
-            impactful content aligned with the startup's goals.
+            Collaborated with the team to create visually appealing and
+            impactful content aligned with the startup goals.
           </p>
         </div>
       ),
