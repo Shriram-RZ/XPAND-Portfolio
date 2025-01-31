@@ -28,17 +28,13 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "Young Entrepreneur",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,12 +45,12 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Branding Expert",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/Shakthi-Home-Image.jpg",
     spareImg: "/grid.svg",
   },
   {
@@ -173,45 +169,41 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Third Place",
+    desc: "Code Debugging at National Level Symposium, Kongunadu College.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Third Place",
+    desc: "DInnofest 2.0 by 3I Entrepreneur Club, SKASC.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Speaker",
+    desc: "Pondicherry Startups Conference 2024.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/twit.svg",
+    link: "https://twitter.com/sakthidevayt",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    link: "https://twitter.com/sakthidevayt",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/instagra.svg",
+    link: "https://www.instagram.com/sakthii.here/",
   },
 ];

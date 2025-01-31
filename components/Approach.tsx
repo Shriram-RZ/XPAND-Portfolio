@@ -6,18 +6,21 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
-      </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="About Me"
+          icon={<AceternityIcon order="About Me" />}
+          des="Hi, I’m Sakthivel, a passionate
+entrepreneur and innovator currently
+pursuing my 2nd year at Sri Krishna Arts
+and Science College. As the Founder and
+CEO of Xpand, I’ve led a creative journey
+in social media branding, working with
+over 12 clients, including 5 international
+brands, and generating over 500K organic
+views."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +29,15 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="My Mission"
+          icon={<AceternityIcon order="My Mission" />}
+          des="I’m dedicated to empowering businesses
+and individuals to unlock their potential
+through innovative strategies in personal
+branding, content creation, and digital
+marketing. My approach combines
+creativity, data-driven insights, and a deep
+understanding of audience behavior"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -46,19 +53,6 @@ const Approach = () => {
           {/* Radial gradient for the cute fade */}
           {/* remove this one */}
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
-        </Card>
-        <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
-          />
         </Card>
       </div>
     </section>
@@ -151,7 +145,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
       {/* change rounded-lg, text-purple px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
-      <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
+      <button className="relative inline-flex overflow-hidden rounded-full p-[1px] width-[fit-content]">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
          bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"

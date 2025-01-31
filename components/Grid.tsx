@@ -11,11 +11,11 @@ const Grid = () => {
             key={i}
             title={item.title}
             description={item.description}
-            // remove icon prop
-            // remove original classname condition
             className={item.className}
             img={item.img}
-            imgClassName={item.imgClassName}
+            imgClassName={`${item.imgClassName} object-cover w-full h-full ${
+              item.id === 5 ? "w-1/2 rounded-lg" : ""
+            }`} // Ensure image covers the container and is responsive
             titleClassName={item.titleClassName}
             spareImg={item.spareImg}
           />

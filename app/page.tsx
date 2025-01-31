@@ -10,6 +10,8 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import Timeline, { TimelineDemo } from "@/components/TimelineDemo";
+import { CardSpotlightDemo } from "@/components/CardSpotlightDemo";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
         <Clients />
         <Experience />
         <Approach />
+        <TimelineDemo />
+        <CardSpotlightDemo />
         <Footer />
       </div>
     </main>
