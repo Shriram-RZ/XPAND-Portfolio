@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shakthi's Portfolio",
-  description: "Founder and CEO of Xpand",
+  title: "XPAND",
+  description: "Your Growth Our Mission",
 };
 
 export default function RootLayout({

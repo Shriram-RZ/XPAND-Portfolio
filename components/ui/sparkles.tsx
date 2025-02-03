@@ -52,7 +52,11 @@ export const SparklesCore = (props: ParticlesProps) => {
 
   const generatedId = useId();
   return (
-    <motion.div animate={controls} className={cn("opacity-0", className)}>
+    <motion.div
+      animate={controls}
+      className={cn("opacity-0", className)}
+      style={{ background: "transparent" }}
+    >
       {init && (
         <Particles
           id={id || generatedId}
@@ -61,7 +65,7 @@ export const SparklesCore = (props: ParticlesProps) => {
           options={{
             background: {
               color: {
-                value: background || "#0d47a1",
+                value: "transparent",
               },
             },
             fullScreen: {

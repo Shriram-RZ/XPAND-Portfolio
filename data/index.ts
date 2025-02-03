@@ -71,43 +71,71 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Startup Meetup - Starbucks",
+    title: "Pondicherry Startup Conference 2024",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/starbucks.webp",
     iconLists: [""],
     link: "",
+    pinName: "Event",
   },
   {
     id: 2,
-    title: "Tirunelveli Startups Meet Edition 1!",
+    title: "Coimbatore Startup Meet Edition 1",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/spaco.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
+    pinName: "Sponsor",
   },
   {
     id: 3,
-    title: "Tirunelveli Startup Group",
+    title: "Coimbatore Startup Meet Edition 2",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/Spaco-Workspace.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
+    pinName: "Sponsor",
   },
   {
     id: 4,
-    title: "Startup Meetup - Pondicherry",
+    title: "Tirunelveli Startup Meet Edition 1",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/Pondicherry.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
+    pinName: "Sponsor",
+  },
+];
+export const testimonials = [
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
   },
   {
-    id: 5,
-    title: "Coimbatore Startups Meet Edition 2!",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/bloomit.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
   },
 ];
 

@@ -32,9 +32,9 @@ const config = {
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          100: "#000",
+          200: "rgb(0, 0, 0)",
+          300: "rgb(0, 0, 0)",
         },
         white: {
           DEFAULT: "#FFF",
@@ -180,6 +180,17 @@ const config = {
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(
+        {
+          "bg-dot-thick": (value: any) => ({
+            backgroundImage: `url("${svgToDataUri(
+              `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="16" height="16" fill="none"><circle fill="${value}" id="pattern-circle" cx="10" cy="10" r="2.5"></circle></svg>`
+            )}")`,
+          }),
+        },
+        {
+          values: flattenColorPalette(theme("backgroundColor")),
+          type: "color",
+        },
         {
           "bg-grid": (value: any) => ({
             backgroundImage: `url("${svgToDataUri(
